@@ -1,7 +1,8 @@
 {
-  "name": "weather-app-assignment",
+  "name": "weather-app-assignment2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ran232003.github.io/Ran-Farjun-03-20-2022",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
@@ -27,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
    
   },
   "eslintConfig": {
